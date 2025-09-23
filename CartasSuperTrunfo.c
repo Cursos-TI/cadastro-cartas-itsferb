@@ -106,7 +106,6 @@ int main() {
     printf("Pontos Turísticos: %d\n", pontosturisticos_2);
     
     /*********** xx ***********/
-
     return 0;
 
 }
