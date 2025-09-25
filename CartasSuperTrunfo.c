@@ -4,8 +4,8 @@ int main() {
 
     /*********** Variáveis - Carta 01 ***********/
 
-    char codigo_1[5];  // Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03).
-    char estado_1[5];  // Estado: Estado da cidade.
+    char codigo_1[4];  // Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03).
+    char estado_1[4];  // Estado: Estado da cidade.
     char nomecidade_1[50];  // Nome da Cidade: O nome da cidade. 
     int populacao_1; //  População: O número de habitantes da cidade. 
     float area_1; //  Área (em km²): A área da cidade em quilômetros quadrados.
@@ -16,8 +16,8 @@ int main() {
 
     /*********** Variáveis - Carta 02 ***********/
 
-    char codigo_2[5];  // Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03).
-    char estado_2[5];  // Estado: Estado da cidade.
+    char codigo_2[4];  // Código da Carta: A letra do estado seguida de um número de 01 a 04 (ex: A01, B03).
+    char estado_2[4];  // Estado: Estado da cidade.
     char nomecidade_2[50];  // Nome da Cidade: O nome da cidade. 
     int populacao_2; //  População: O número de habitantes da cidade. 
     float area_2; //  Área (em km²): A área da cidade em quilômetros quadrados.
@@ -31,10 +31,10 @@ int main() {
     printf("CADASTRO DA CARTA 1:\n");
 
     printf("Informe o Código da Carta:\n");
-    scanf("%4s", codigo_1);    
+    scanf("%3s", codigo_1);    
 
     printf("Informe o Estado:\n");
-    scanf("%4s", estado_1);    
+    scanf("%3s", estado_1);    
 
     printf("Informe a Cidade:\n");
     scanf("%49s", nomecidade_1);    
@@ -58,10 +58,10 @@ int main() {
     printf("CADASTRO DA CARTA 2:\n");
 
     printf("Informe o Código da Carta:\n");
-    scanf("%4s", codigo_2);    
+    scanf("%3s", codigo_2);    
 
     printf("Informe o Estado:\n");
-    scanf("%4s", estado_2);    
+    scanf("%3s", estado_2);    
 
     printf("Informe a Cidade:\n");
     scanf("%49s", nomecidade_2);    
